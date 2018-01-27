@@ -1,0 +1,21 @@
+
+div[ng-app] { margin: 10px; padding-top: 5% }
+.table {width: 100% }
+form[editable-form] > div {margin: 10px 0;}
+
+body {background: #f2f2f2;}
+h1 {
+    position: relative;
+    text-align: center;
+    color: #353535;
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+}
+h1:before {
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    width: 150px;
+    height: 2px;
+    background: #353535;
+}
